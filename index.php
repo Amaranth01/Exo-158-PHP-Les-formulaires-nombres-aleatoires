@@ -9,3 +9,15 @@
 
 http://php.net/manual/fr/function.mt-rand.php
 */
+
+?>
+
+<form action="form.php" method="post">
+    <label for="number1">Entrez un nombre au hasard</label>
+    <input type="number" name="number1" id="number1" required>
+
+    <label for="number2">Entrez un autre nombre plus haut que le précédent</label>
+    <input type="number" name="number2" id="number2" required>
+
+    <input type="submit" name="submit">
+</form>
